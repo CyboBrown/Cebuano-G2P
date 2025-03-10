@@ -1,0 +1,22 @@
+Wala ko'y pagkaon, apan wala sad ko gigutom.
+ang sa og kang ug ni si na pa kung kun ba
+Ang kalayo mikalatkat sa balongbong ug sa atop.
+Bisan pa og may lain ka na karon, ikaw lang gihapon ang higugmaon.
+Gikaon sa iro ang bukog.
+Wala ra kaayo ko'y problema niini.
+Moadto ko sa lungsod sa Palompon.
+Wala ra kaayo koy problema nimo apan baga kag nawong ug walay konsensya.
+Agosto nang dako, wala gihapon ka kapanghinlo.
+Wala ta ka hisultii nga tuod sa akong gibati, busa ibutyag ko na kanimo ug ipadayag sa tibuok kalibutan ang nag-uros-uros kong gugma nga daan nang nalilok sa bato sa kapalaran ug dili na ikalilong sa madugay.
+
+
+    text = "Ang kalayo mikalatkat sa balungbong ug sa atup."
+    phonetic_text = "?aN ka\"lajU mika\"latkat sa ba\"lUNbUN ?Ug sa ?a\"tUp"
+    text = "Gikaon sa iro ang bukog."
+    phonetic_text = "gika\"?Un sa ?i\"4U? ?aN bU\"kUg"
+
+<speak>
+    <phoneme alphabet="x-sampa" ph='?aN ka"lajU mika"latkat sa ba"lUNbUN ?Ug sa ?a"tUp'>
+        <!-- Ang kalayo mikalatkat sa balungbong ug sa atup. -->
+    </phoneme>
+</speak>
