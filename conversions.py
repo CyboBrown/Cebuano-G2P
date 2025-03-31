@@ -9,6 +9,7 @@ def normalize(s):
     result = result.replace("é", "í")
     result = result.replace("o", "u")
     result = result.replace("ó", "ú")
+    result = re.sub(r'(?<=\d)[, ](?=\d)', '', result) # Connect numbers
     return result
 
 def split_into_tokens(s):
@@ -17,22 +18,67 @@ def split_into_tokens(s):
     cleaned_tokens = [token.replace("'", "") for token in tokens]
     return cleaned_tokens
 
-## Add exceptions for "mga" and numbers
+def number_to_cebuano(number):
+    ones = ["", "qusá", "duhá", "tulú", "qupát", "limá", "qunúm", "pitú", "walú", "siyám"]
+    teens = ["napúluq", "napúlug qusá", "napúlug duhá", "napúlug tulú", "napúlug qupát",
+             "napúlug limá", "napúlug qunúm", "napúlug pitú", "napúlug walú", "napúlug siyám"]
+    tens = ["", "napúluq", "kaluhaqán", "katluqán", "kapqatán", "kalímqan", 
+            "kanqumán", "kapituqán", "kawaluqán", "kasiyamán"]
+    thousands = ["", "líbu", "mílyun", "bílyun", "trílyun"]
+    def convert_below_100(num):
+        if num < 10:
+            return ones[num]
+        elif num < 20:
+            return teens[num - 10]
+        else:
+            tens_part = tens[num // 10]
+            ones_part = ones[num % 10]
+            return f"{tens_part} qug {ones_part}" if ones_part else tens_part
+    def convert_below_1000(num):
+        if num < 100:
+            return convert_below_100(num)
+        else:
+            hundreds_part = ones[num // 100] + " ka gatús"
+            remainder = num % 100
+            return f"{hundreds_part} {convert_below_100(remainder)}" if remainder else hundreds_part
+    n = int(number)
+    if n == 0:
+        return "sero"
+    parts = []
+    num_str = str(n)[::-1]  # Reverse to process in groups of three
+    chunks = [num_str[i:i+3][::-1] for i in range(0, len(num_str), 3)]  # Break into thousands
+    for i, chunk in enumerate(chunks):
+        chunk_num = int(chunk)
+        if chunk_num:
+            chunk_word = convert_below_1000(chunk_num)
+            parts.append(chunk_word + " ka " + thousands[i] if thousands[i] else chunk_word)
+    return " ".join(reversed(parts)).strip()
 
 def phonemize_exceptions(tokens):
-    exceptions0 = ["ang", "kang", "ni", "nga", "sa", "si", "ug", "ra", "ka"]
-    exceptions1 = ["ba", "lang", "na", "pa"]
-    def phonemize(token):
-        if token in exceptions0 or token in exceptions1:
-            token = token.replace("ng", "ŋ")
-            if token[0] in ["a", "i", "u", "á", "í", "ú"]:
-                token = "q" + token
-            # if token in exceptions1:
-            #     return token + "1"
-            # return token + "0"
-        return token
-    tokens = map(phonemize, tokens)
-    return tokens
+    exception_replacements = {
+        "0": "síru",
+        "1": "qusá",
+        "2": "duhá",
+        "3": "tulú",
+        "4": "qupát",
+        "5": "limá",
+        "6": "qunúm",
+        "7": "pitú",
+        "8": "walú",
+        "9": "siyám",
+        "akung": "qákuŋ",
+        "mga": "maŋá",
+        "ng": "naŋ",
+    }
+    modified_tokens = []
+    # previous_token = ""
+    for token in tokens:
+        new_token = exception_replacements.get(token, token)
+        if new_token.isdigit():
+            new_token = number_to_cebuano(new_token)
+        modified_tokens.append(new_token)
+        # previous_token = new_token
+    return modified_tokens
 
 def match_words_with_dataset(tokens):
     # Load the CSV file into a DataFrame
@@ -106,14 +152,16 @@ def phonemize_closed_penult(tokens):
     tokens = map(add_stress_if_closed_penult, tokens)
     return tokens
 
-
 def convert(input):
     text = normalize(input)
     tokens = split_into_tokens(text)
-    # tokens = phonemize_exceptions(tokens)
+    tokens = phonemize_exceptions(tokens)
     tokens = match_words_with_dataset(tokens)
     tokens = phonemize_closed_penult(tokens)
     return tokens
+
+def convert_cpa(tokens):
+    return " ".join(tokens)
 
 def convert_ipa(tokens):
     syllable_regex = re.compile(r"[^aeiouáéíóú]*[aeiouáéíóú]+(?:[^aeiouáéíóú]*$|[^aeiouáéíóú](?=[^aeiouáéíóú]))?", re.IGNORECASE)
@@ -128,7 +176,7 @@ def convert_ipa(tokens):
         return result
     syllabicated = syllabify(tokens)
     char_map = {
-        "q": "ʔ", "r": "4", "y": "j", "u": "ʊ",
+        "q": "ʔ", "r": "ɾ", "y": "j", "u": "ʊ",
         "á": "a", "é": "ɛ", "í": "i", "ó": "o", "ú": "ʊ"
     }
     def map_characters(words_list):
@@ -141,6 +189,7 @@ def convert_ipa(tokens):
             mapped_words.append(mapped_word)
         return mapped_words
     return "".join(map_characters(syllabicated))
+    # return ".".join(map_characters(syllabicated)).replace(" ", "").replace("..", ".")
 
 def synthesize_text(text, phonetic_text):
     """Synthesizes speech from the input string of text."""
@@ -148,7 +197,9 @@ def synthesize_text(text, phonetic_text):
 
     text = text.replace("e", "i")
     text = text.replace("o", "u")
-    # phonetic_text = "gika\"?Un sa ?i\"4U? ?aN bU\"kUg"
+    text = ""
+    # phonetic_text = "ʔaŋ.ʔi.ˈɾʊʔ.mi.la.ˈjat.sa.ʔi.ˈɾiŋ" # IPA Example
+    # phonetic_text = "gika\"?Un sa ?i\"4U? ?aN bU\"kUg" # SAMPA Example
     print(text)
     print(phonetic_text)
     client = texttospeech.TextToSpeechClient()
