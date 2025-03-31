@@ -602,7 +602,7 @@ _id,head,normalized_head
 665,qakwíntans,akwintans
 667,qákyut,akyut
 668,qalá,ala
-670,qÁla,ala
+670,qála,ala
 671,qaláq,ala
 673,paŋálaq,pangala
 674,qálaq,ala
@@ -1095,11 +1095,11 @@ _id,head,normalized_head
 1198,qamiriká,amirika
 1199,qamirikána,amirikana
 1200,qamirkána,amirkana
-1201,Mirkána,mirkana
+1201,mirkána,mirkana
 1202,qamirikanayís,amirikanayis
 1203,qamirikánu,amirikanu
 1204,qamirkánu,amirkanu
-1205,Mirkánu,mirkanu
+1205,mirkánu,mirkanu
 1206,qinamirikánu,inamirikanu
 1207,qamirúl,amirul
 1208,qamístad,amistad
@@ -1195,7 +1195,7 @@ _id,head,normalized_head
 1312,qanaháq,anaha
 1313,qanáhaw,anahaw
 1316,qanák,anak
-1323,qÁnak,anak
+1323,qának,anak
 1324,paqanák,paanak
 1325,palaqaŋkanán,palaangkanan
 1326,pinaqáŋkan,pinaangkan
@@ -2360,9 +2360,9 @@ _id,head,normalized_head
 2637,mabinagqúhun,mabinag-uhun
 2638,bagqúhay,bag-uhay
 2639,bagúbhu,bagubhu
-2640,Bagúbu,bagubu
-2641,Bagúbuq,bagubu
-2642,Bagúqbuq,bagubu
+2640,bagúbu,bagubu
+2641,bagúbuq,bagubu
+2642,bagúqbuq,bagubu
 2643,bagúdlus,bagudlus
 2644,bagúkbuk,bagukbuk
 2645,bagúl,bagul
@@ -3438,7 +3438,7 @@ _id,head,normalized_head
 3803,barumitír,barumitir
 3804,barumítru,barumitru
 3805,barúŋ,barung
-3808,Pilipínu,pilipinu
+3808,pilipínu,pilipinu
 3809,baruŋbáruŋ,barungbarung
 3810,barúŋuy,barunguy
 3811,barút,barut
@@ -3571,7 +3571,7 @@ _id,head,normalized_head
 3959,batánqun,batan-un
 3960,kabatánqun,kabatan-un
 3961,bataqút,bataut
-3962,Bataqán,bataan
+3962,bataqán,bataan
 3964,batád,batad
 3965,batadbátad,batadbatad
 3966,bátak,batak
@@ -3628,7 +3628,7 @@ _id,head,normalized_head
 4021,batíqisun,batiisun
 4022,batikán,batikan
 4023,batíkan,batikan
-4024,Batikánu,batikanu
+4024,batikánu,batikanu
 4025,batikúbra,batikubra
 4026,batikúla,batikula
 4027,batikúlun,batikulun
@@ -4748,8 +4748,8 @@ _id,head,normalized_head
 5245,buhukbúhuk,buhukbuhuk
 5246,buhukán,buhukan
 5247,buhúkan,buhukan
-5248,Buhúl,buhul
-5249,Bulqánun,bul-anun
+5248,buhúl,buhul
+5249,bulqánun,bul-anun
 5250,buhunbúhun,buhunbuhun
 5251,kabuhunbúhun,kabuhunbuhun
 5252,buhúŋ,buhung
@@ -4967,7 +4967,7 @@ _id,head,normalized_head
 5485,búlhug,bulhug
 5486,búlhun,bulhun
 5487,búlhut,bulhut
-5488,Búlhut!,bulhut!
+5488,búlhut!,bulhut!
 5489,pabúlhut,pabulhut
 5490,bulhutáy,bulhutay
 5491,bulí,buli
@@ -6678,12 +6678,12 @@ _id,head,normalized_head
 7381,dísil,disil
 7382,disílya,disilya
 7383,disimál,disimal
-7384,Disímbri,disimbri
+7384,disímbri,disimbri
 7385,disimítru,disimitru
 7386,disimítrus,disimitrus
 7387,disqimpíkta,dis-impikta
 7388,disímpiktǎr,disimpiktar
-7389,Disímri,disimri
+7389,disímri,disimri
 7390,disimuladú,disimuladu
 7391,disqinpíkta,dis-inpikta
 7392,disqinpiktánti,dis-inpiktanti
@@ -6789,7 +6789,7 @@ _id,head,normalized_head
 7498,dísqug,dis-ug
 7499,disqúras,dis-uras
 7500,diswíldu,diswildu
-7501,Disyímbri,disyimbri
+7501,disyímbri,disyimbri
 7502,disyírtu,disyirtu
 7504,dít,dit
 7505,ditáq,dita
@@ -7110,7 +7110,7 @@ _id,head,normalized_head
 7881,dulumdumún,dulumdumun
 7882,dumíliq,dumili
 7883,duminár,duminar
-7884,Dumíŋgu,duminggu
+7884,dumíŋgu,duminggu
 7887,duminú,duminu
 7888,dumísiŋ,dumising
 7889,kadumísiŋ,kadumising
@@ -7378,7 +7378,7 @@ _id,head,normalized_head
 8184,dyúkbaks,dyukbaks
 8185,dyúkir,dyukir
 8186,dyúlin,dyulin
-8187,Dyún,dyun
+8187,dyún,dyun
 8188,dyunbráyid,dyunbrayid
 8189,dyúnsun,dyunsun
 8190,dyúnyur,dyunyur
@@ -7426,7 +7426,7 @@ _id,head,normalized_head
 8248,gábhaŋ,gabhang
 8249,gábhut,gabhut
 8250,gábi,gabi
-8252,Hawáy,haway
+8252,hawáy,haway
 8253,gabigabí,gabigabi
 8254,gabíqi,gabii
 8255,gabhiqúna,gabhiuna
@@ -7981,7 +7981,7 @@ _id,head,normalized_head
 8851,ginaqán,gina-an
 8852,ginábut,ginabut
 8853,ginahapún,ginahapun
-8854,Gínaŋ,ginang
+8854,gínaŋ,ginang
 8855,ginansiyá,ginansiya
 8856,gíŋa,ginga
 8857,giŋáq,ginga
@@ -7995,7 +7995,7 @@ _id,head,normalized_head
 8871,gininháwa,gininhawa
 8872,ginhawáqan,ginhawaan
 8873,ginhawaqán,ginhawaan
-8874,Gíniŋ,gining
+8874,gíniŋ,gining
 8875,gínit,ginit
 8876,gínlaw,ginlaw
 8877,gínsud,ginsud
@@ -9360,7 +9360,7 @@ _id,head,normalized_head
 10388,kahigwaqús,kahigwaus
 10390,hihín,hihin
 10391,hínin,hinin
-10392,Hihúba,hihuba
+10392,hihúba,hihuba
 10393,hik,hik
 10394,hikabhikáb,hikabhikab
 10395,híkad,hikad
@@ -9740,11 +9740,11 @@ _id,head,normalized_head
 10810,hísuq,hisu
 10811,hisúq,hisu
 10812,paŋhísuq,panghisu
-10813,Hisukrístu,hisukristu
+10813,hisukrístu,hisukristu
 10814,hisúpu,hisupu
-10815,Hisús,hisus
+10815,hisús,hisus
 10816,paŋhisús,panghisus
-10817,Hisusmaryusíp,hisusmaryusip
+10817,hisusmaryusíp,hisusmaryusip
 10818,hiswíta,hiswita
 10819,hiswítas,hiswitas
 10820,hit,hit
@@ -9790,7 +9790,7 @@ _id,head,normalized_head
 10865,híyas,hiyas
 10866,pahíyas,pahiyas
 10867,hiyawasá,hiyawasa
-10868,Hiyúba,hiyuba
+10868,hiyúba,hiyuba
 10870,híyud,hiyud
 10871,híyud,hiyud
 10872,hiyudhíyud,hiyudhiyud
@@ -9854,7 +9854,7 @@ _id,head,normalized_head
 10938,húdhud,hudhud
 10939,paŋhúdhud,panghudhud
 10940,hudír,hudir
-10941,Hudíya,hudiya
+10941,hudíya,hudiya
 10942,hudiyákaq,hudiyaka
 10943,mahudiyakaqún,mahudiyakaun
 10944,hudíyu,hudiyu
@@ -10044,7 +10044,7 @@ _id,head,normalized_head
 11144,hulús,hulus
 11145,húlut,hulut
 11146,hulúy,huluy
-11147,Húlyu,hulyu
+11147,húlyu,hulyu
 11148,húlyut,hulyut
 11149,húm,hum
 11150,humánan,humanan
@@ -10182,7 +10182,7 @@ _id,head,normalized_head
 11295,húnus,hunus
 11296,húnus,hunus
 11297,hunushúnus,hunushunus
-11298,Húnyu,hunyu
+11298,húnyu,hunyu
 11299,húp,hup
 11300,hupáq,hupa
 11301,hupák,hupak
@@ -10308,7 +10308,7 @@ _id,head,normalized_head
 11423,huwaránan,huwaranan
 11424,huwág,huwag
 11425,huwaghuwág,huwaghuwag
-11426,Huwán,huwan
+11426,huwán,huwan
 11429,húwap,huwap
 11430,huwás,huwas
 11431,pahuwás,pahuwas
@@ -10334,7 +10334,7 @@ _id,head,normalized_head
 11454,mahúyaŋ,mahuyang
 11455,kahúyaŋ,kahuyang
 11456,huyátid,huyatid
-11457,Húybis,huybis
+11457,húybis,huybis
 11459,húygu,huygu
 11461,húygu,huygu
 11462,paŋhúygu,panghuygu
@@ -10361,7 +10361,7 @@ _id,head,normalized_head
 11484,qí,i
 11489,qibá,iba
 11490,qíbaq,iba
-11493,qÍbaq,iba
+11493,qíbaq,iba
 11495,qibabáw,ibabaw
 11496,qibábaw,ibabaw
 11497,qibakwísyun,ibakwisyun
@@ -11077,7 +11077,7 @@ _id,head,normalized_head
 12323,qinsigniyá,insigniya
 12324,qínsik,insik
 12325,qinínsik,ininsik
-12326,Kaqinsikán,kainsikan
+12326,kaqinsikán,kainsikan
 12327,qinsikún,insikun
 12328,qinsíka,insika
 12329,qinsíktu,insiktu
@@ -11231,7 +11231,7 @@ _id,head,normalized_head
 12493,qípus,ipus
 12494,qipusqipús,ipus-ipus
 12495,qiputíka,iputika
-12496,qiR5,ir5
+12496,qir5,ir5
 12498,qirád,irad
 12499,qirág,irag
 12500,qiráqid,iraid
@@ -13116,7 +13116,7 @@ _id,head,normalized_head
 14636,kátul,katul
 14637,katulkatúl,katulkatul
 14638,katúl,katul
-14640,Katuliká,katulika
+14640,katuliká,katulika
 14641,katulikú,katuliku
 14642,katulisísmu,katulisismu
 14643,katúmsan,katumsan
@@ -13751,7 +13751,7 @@ _id,head,normalized_head
 15364,kristiyánu,kristiyanu
 15365,kristiyanísmu,kristiyanismu
 15366,kristiyánus,kristiyanus
-15367,Krístu,kristu
+15367,krístu,kristu
 15370,kristuhánun,kristuhanun
 15371,krístu,kristu
 15372,krít,krit
@@ -14463,7 +14463,7 @@ _id,head,normalized_head
 16143,kunstruksiyún,kunstruksiyun
 16144,kúnsul,kunsul
 16145,kunsuládu,kunsuladu
-16146,Kunsulasiyún,kunsulasiyun
+16146,kunsulasiyún,kunsulasiyun
 16150,kunsúlta,kunsulta
 16151,kunsultasiyún,kunsultasiyun
 16152,kunsumisiyún,kunsumisiyun
@@ -14631,7 +14631,7 @@ _id,head,normalized_head
 16337,kuridúr,kuridur
 16338,paŋuridúr,panguridur
 16339,kuridúra,kuridura
-16340,Kurihidúr,kurihidur
+16340,kurihidúr,kurihidur
 16341,kurihír,kurihir
 16342,kurík,kurik
 16344,kuriksiyún,kuriksiyun
@@ -15482,7 +15482,7 @@ _id,head,normalized_head
 17286,panagláqin,panaglain
 17287,panigláqin,paniglain
 17288,láqis,lais
-17289,Laqíti,laiti
+17289,laqíti,laiti
 17290,lák,lak
 17291,lákqab,lak-ab
 17292,lákqab,lak-ab
@@ -16311,7 +16311,7 @@ _id,head,normalized_head
 18216,láylu,laylu
 18217,láyniŋ,layning
 18218,láysul,laysul
-18219,Láyti,layti
+18219,láyti,layti
 18220,láytir,laytir
 18221,layú,layu
 18222,layúq,layu
@@ -17365,7 +17365,7 @@ _id,head,normalized_head
 19383,linunáw,linunaw
 19384,lunáy,lunay
 19385,lúndag,lundag
-19386,Lúndris,lundris
+19386,lúndris,lundris
 19387,lúndris,lundris
 19388,lúnduk,lunduk
 19389,lúnduk,lunduk
@@ -17417,7 +17417,7 @@ _id,head,normalized_head
 19438,luŋutluŋút,lungutlungut
 19439,lúnhat,lunhat
 19440,lúnhaw,lunhaw
-19441,Lúnis,lunis
+19441,lúnis,lunis
 19442,palunís,palunis
 19443,lúnis,lunis
 19444,lúnit,lunit
@@ -17536,7 +17536,7 @@ _id,head,normalized_head
 19573,lúsug,lusug
 19574,lusúk,lusuk
 19575,linusúk,linusuk
-19576,Lusún,lusun
+19576,lusún,lusun
 19577,lusúŋ,lusung
 19578,lúsuŋ,lusung
 19579,lúsuŋ,lusung
@@ -17725,7 +17725,7 @@ _id,head,normalized_head
 19784,madyuŋíru,madyungiru
 19785,madyuŋíra,madyungira
 19786,madyurít,madyurit
-19789,Magahát,magahat
+19789,magahát,magahat
 19790,magalyánis,magalyanis
 19791,magáŋ,magang
 19792,mágaŋ,magang
@@ -17734,7 +17734,7 @@ _id,head,normalized_head
 19795,magáy,magay
 19796,mágay,magay
 19798,magayá,magaya
-19799,Magindánaw,magindanaw
+19799,magindánaw,magindanaw
 19803,maglalatík,maglalatik
 19804,magnísya,magnisya
 19806,mágnit,magnit
@@ -17774,7 +17774,7 @@ _id,head,normalized_head
 19856,makán,makan
 19857,makapunúq,makapunu
 19859,makarúni,makaruni
-19860,Makáw,makaw
+19860,makáw,makaw
 19862,máki,maki
 19863,máki,maki
 19865,makiná,makina
@@ -17797,8 +17797,8 @@ _id,head,normalized_head
 19891,malabanú,malabanu
 19892,malabutáŋ,malabutang
 19893,malagayá,malagaya
-19894,Malakányan,malakanyan
-19895,Malakányaŋ,malakanyang
+19894,malakányan,malakanyan
+19895,malakányaŋ,malakanyang
 19896,málqam,mal-am
 19897,maláŋsi,malangsi
 19898,malapatí,malapati
@@ -17816,7 +17816,7 @@ _id,head,normalized_head
 19911,málay,malay
 19913,maláyaŋ,malayang
 19914,malaypálay,malaypalay
-19915,Maláyu,malayu
+19915,maláyu,malayu
 19916,málbas,malbas
 19917,maldisiyún,maldisiyun
 19918,maldíta,maldita
@@ -17871,7 +17871,7 @@ _id,head,normalized_head
 19972,mamilúku,mamiluku
 19973,mamíŋ,maming
 19974,mámpud,mampud
-19975,Mámpur,mampur
+19975,mámpur,mampur
 19978,mámsaq,mamsa
 19980,mámsaq,mamsa
 19981,mamún,mamun
@@ -17903,11 +17903,11 @@ _id,head,normalized_head
 20018,manaqúl,manaul
 20019,manáy,manay
 20020,mánay,manay
-20021,máNqay,man-ay
+20021,mánqay,man-ay
 20022,mánbad,manbad
 20024,kamánbad,kamanbad
 20025,mandalúsa,mandalusa
-20026,Mandalúyuŋ,mandaluyung
+20026,mandalúyuŋ,mandaluyung
 20027,tagamandalúyuŋ,tagamandaluyung
 20030,mandǎr,mandar
 20031,mandasiyún,mandasiyun
@@ -17953,7 +17953,7 @@ _id,head,normalized_head
 20074,máŋsi,mangsi
 20075,máŋtas,mangtas
 20076,maŋúq,mangu
-20077,Máŋyan,mangyan
+20077,máŋyan,mangyan
 20078,mánhak,manhak
 20079,maní,mani
 20081,manimaní,manimani
@@ -17966,8 +17966,8 @@ _id,head,normalized_head
 20094,manikín,manikin
 20095,manikiyúr,manikiyur
 20096,manikiyurísta,manikiyurista
-20097,Maníla,manila
-20098,Manílaq,manila
+20097,maníla,manila
+20098,manílaq,manila
 20101,manilánqun,manilan-un
 20102,manilínyu,manilinyu
 20103,manilínya,manilinya
@@ -17983,7 +17983,7 @@ _id,head,normalized_head
 20115,manlulúndaq,manlulunda
 20116,mánlut,manlut
 20117,mánlut,manlut
-20119,máNqrqay,man-r-ay
+20119,mánqrqay,man-r-ay
 20120,mánsa,mansa
 20121,mansádu,mansadu
 20122,mansahún,mansahun
@@ -18032,8 +18032,8 @@ _id,head,normalized_head
 20168,manumánu,manumanu
 20169,manúbig,manubig
 20170,manubíla,manubila
-20171,Manúbu,manubu
-20172,Manúbuq,manubu
+20171,manúbu,manubu
+20172,manúbuq,manubu
 20173,manugímpu,manugimpu
 20174,manugímpul,manugimpul
 20175,manúk,manuk
@@ -18075,7 +18075,7 @@ _id,head,normalized_head
 20215,máram,maram
 20216,maramáq,marama
 20217,marámaq,marama
-20218,Maranáw,maranaw
+20218,maranáw,maranaw
 20219,maráŋ,marang
 20220,máraŋ,marang
 20221,marapíta,marapita
@@ -18097,7 +18097,7 @@ _id,head,normalized_head
 20238,mariníru,mariniru
 20239,maripúsa,maripusa
 20240,marísi,marisi
-20241,Maríya,mariya
+20241,maríya,mariya
 20247,mariyál,mariyal
 20248,márka,marka
 20252,márkir,markir
@@ -18112,14 +18112,14 @@ _id,head,normalized_head
 20263,marsánti,marsanti
 20264,marsíku,marsiku
 20265,marsiyál,marsiyal
-20266,Mársu,marsu
+20266,mársu,marsu
 20267,marsútu,marsutu
 20268,martabána,martabana
-20269,Márti,marti
+20269,márti,marti
 20270,martílyu,martilyu
 20273,martiníku,martiniku
 20274,mártir,martir
-20276,Mártis,martis
+20276,mártis,martis
 20278,marts,marts
 20280,sagítsit,sagitsit
 20281,gu,gu
@@ -18132,7 +18132,7 @@ _id,head,normalized_head
 20288,marúy,maruy
 20289,marúya,maruya
 20290,maryánas,maryanas
-20291,Maryúsip,maryusip
+20291,maryúsip,maryusip
 20292,mas,mas
 20295,mása,masa
 20296,masahán,masahan
@@ -18293,7 +18293,7 @@ _id,head,normalized_head
 20514,maypáy,maypay
 20515,máyrun,mayrun
 20516,máytir,maytir
-20518,Máyu,mayu
+20518,máyu,mayu
 20520,mayúkmuk,mayukmuk
 20521,kamayúkmuk,kamayukmuk
 20522,máyuŋ,mayung
@@ -18405,7 +18405,7 @@ _id,head,normalized_head
 20661,minahún,minahun
 20662,mína,mina
 20663,minándis,minandis
-20664,Mindanáw,mindanaw
+20664,mindanáw,mindanaw
 20666,míŋ,ming
 20667,míŋaw,mingaw
 20669,kamíŋaw,kamingaw
@@ -18475,7 +18475,7 @@ _id,head,normalized_head
 20737,mirkádu,mirkadu
 20738,mirkána,mirkana
 20739,mirkánu,mirkanu
-20740,Mirkulís,mirkulis
+20740,mirkulís,mirkulis
 20744,mírma,mirma
 20745,mirtiyulít,mirtiyulit
 20746,mirún,mirun
@@ -18783,7 +18783,7 @@ _id,head,normalized_head
 21106,myáqus,myaus
 21107,myímbru,myimbru
 21108,myíntras,myintras
-21109,Myirkulís,myirkulis
+21109,myirkulís,myirkulis
 21110,myúsik,myusik
 21111,na,na
 21113,qádtu,adtu
@@ -18912,7 +18912,7 @@ _id,head,normalized_head
 21264,nayítskul,nayitskul
 21265,náylun,naylun
 21266,náyun,nayun
-21267,NBi,nbi
+21267,nbi,nbi
 21270,ŋa,nga
 21273,ŋaq,nga
 21274,ŋáqab,ngaab
@@ -19137,7 +19137,7 @@ _id,head,normalized_head
 21528,nurt,nurt
 21529,núrti,nurti
 21531,núrul,nurul
-21532,Nurwígu,nurwigu
+21532,nurwígu,nurwigu
 21533,núsnus,nusnus
 21534,núsul,nusul
 21535,núta,nuta
@@ -20140,7 +20140,7 @@ _id,head,normalized_head
 22680,pasipála,pasipala
 22682,mapasipaláhun,mapasipalahun
 22683,mapasipadqánun,mapasipad-anun
-22684,Pasipikú,pasipiku
+22684,pasipikú,pasipiku
 22685,pásis,pasis
 22686,pásis,pasis
 22687,pasístur,pasistur
@@ -20155,7 +20155,7 @@ _id,head,normalized_head
 22697,pasiyún,pasiyun
 22698,páskan,paskan
 22700,páskin,paskin
-22701,Pásku,pasku
+22701,pásku,pasku
 22706,pamásku,pamasku
 22707,pinaskúhan,pinaskuhan
 22708,paskuwás,paskuwas
@@ -20402,7 +20402,7 @@ _id,head,normalized_head
 23013,píqar,piar
 23014,píqay,piay
 23016,píbak,pibak
-23017,Pibrirú,pibriru
+23017,pibrirú,pibriru
 23018,píbur,pibur
 23019,píd,pid
 23020,pídal,pidal
@@ -20422,7 +20422,7 @@ _id,head,normalized_head
 23037,pidlasút,pidlasut
 23038,pídlut,pidlut
 23039,pídpid,pidpid
-23040,Pídru,pidru
+23040,pídru,pidru
 23042,pídsbuy,pidsbuy
 23043,pídquk,pid-uk
 23044,pídquk,pid-uk
@@ -20594,11 +20594,11 @@ _id,head,normalized_head
 23223,pamilikulá,pamilikula
 23224,pilínu,pilinu
 23225,pilípig,pilipig
-23226,Pilipína,pilipina
-23227,Pilipínas,pilipinas
+23226,pilipína,pilipina
+23227,pilipínas,pilipinas
 23228,pilipinísmu,pilipinismu
 23229,pilipinísta,pilipinista
-23230,Pilipínu,pilipinu
+23230,pilipínu,pilipinu
 23231,pilipínhun,pilipinhun
 23232,pilípit,pilipit
 23234,pilipíti,pilipiti
@@ -21206,7 +21206,7 @@ _id,head,normalized_head
 23921,práŋku,prangku
 23922,praníla,pranila
 23923,pránsis,pransis
-23924,Pransiyá,pransiya
+23924,pransiyá,pransiya
 23925,prantáda,prantada
 23926,prántsit,prantsit
 23927,prásis,prasis
@@ -22321,7 +22321,7 @@ _id,head,normalized_head
 25239,ribintadúr,ribintadur
 25240,ribintadúr,ribintadur
 25241,ribírb,ribirb
-25242,Ribiríndu,ribirindu
+25242,ribiríndu,ribirindu
 25243,ribisár,ribisar
 25244,ribisádu,ribisadu
 25245,ribisiyún,ribisiyun
@@ -22463,7 +22463,7 @@ _id,head,normalized_head
 25404,rinigádu,rinigadu
 25405,ríntas,rintas
 25407,rínyun,rinyun
-25408,RiP,rip
+25408,rip,rip
 25410,ríp,rip
 25411,rípa,ripa
 25412,parípa,paripa
@@ -22499,7 +22499,7 @@ _id,head,normalized_head
 25445,ripúrtir,ripurtir
 25446,rirayít,rirayit
 25447,risáda,risada
-25449,Risál,risal
+25449,risál,risal
 25450,rinisál,rinisal
 25451,risáyin,risayin
 25452,risáyit,risayit
@@ -22599,12 +22599,12 @@ _id,head,normalized_head
 25556,rulyísta,rulyista
 25557,rúmi,rumi
 25558,rúma,ruma
-25559,Rumanísta,rumanista
+25559,rumanísta,rumanista
 25560,rúmans,rumans
 25562,rumánsa,rumansa
 25563,rumantiká,rumantika
 25564,rumantikú,rumantiku
-25565,Rumánu,rumanu
+25565,rumánu,rumanu
 25567,rúmba,rumba
 25568,rúmblun,rumblun
 25569,rúmbu,rumbu
@@ -22631,7 +22631,7 @@ _id,head,normalized_head
 25598,rusítas,rusitas
 25599,rúska,ruska
 25600,ruskílyus,ruskilyus
-25601,Rúsu,rusu
+25601,rúsu,rusu
 25602,rúta,ruta
 25603,rutisiyún,rutisiyun
 25604,rutúnda,rutunda
@@ -22662,7 +22662,7 @@ _id,head,normalized_head
 25637,sábqa,sab-a
 25638,sabád,sabad
 25639,sabadísta,sabadista
-25640,Sabadú,sabadu
+25640,sabadú,sabadu
 25643,sinabadú,sinabadu
 25644,sábqag,sab-ag
 25645,sábqag,sab-ag
@@ -22674,7 +22674,7 @@ _id,head,normalized_head
 25653,sabaná,sabana
 25654,sabáŋ,sabang
 25655,sábaŋ,sabang
-25656,Sábas,sabas
+25656,sábas,sabas
 25657,sinábas,sinabas
 25658,sabát,sabat
 25660,panábtan,panabtan
@@ -23212,9 +23212,9 @@ _id,head,normalized_head
 26231,samalabíts,samalabits
 26232,samalúna,samaluna
 26233,sámqaŋ,sam-ang
-26234,Sámar,samar
-26235,Samarínyu,samarinyu
-26236,Samárnun,samarnun
+26234,sámar,samar
+26235,samarínyu,samarinyu
+26236,samárnun,samarnun
 26237,samaqsamáq,samasama
 26238,samáw,samaw
 26239,sámaw,samaw
@@ -24070,7 +24070,7 @@ _id,head,normalized_head
 27208,síkway,sikway
 27209,sikyurití,sikyuriti
 27211,síl,sil
-27212,Krísmas,krismas
+27212,krísmas,krismas
 27213,prumusiyún,prumusiyun
 27216,silá,sila
 27219,silahánun,silahanun
@@ -24479,7 +24479,7 @@ _id,head,normalized_head
 27663,sípsip,sipsip
 27664,sípsip,sipsip
 27667,sípti,sipti
-27668,Siptímbri,siptimbri
+27668,siptímbri,siptimbri
 27670,siptináryu,siptinaryu
 27671,sipú,sipu
 27672,sípuk,sipuk
@@ -24787,8 +24787,8 @@ _id,head,normalized_head
 28009,qanunúgba,anunugba
 28010,sugbaqánan,sugbaanan
 28011,sinúgba,sinugba
-28012,Súgbu,sugbu
-28014,Sugbuqánun,sugbuanun
+28012,súgbu,sugbu
+28014,sugbuqánun,sugbuanun
 28015,sinugbuqanún,sinugbuanun
 28016,súgbu,sugbu
 28017,pasúgbu,pasugbu
@@ -25685,7 +25685,7 @@ _id,head,normalized_head
 29004,tabukánun,tabukanun
 29005,talabukún,talabukun
 29006,tabukáw,tabukaw
-29007,Tabúli,tabuli
+29007,tabúli,tabuli
 29008,tábun,tabun
 29010,tabún,tabun
 29011,tabuntábun,tabuntabun
@@ -25764,8 +25764,8 @@ _id,head,normalized_head
 29090,tagál,tagal
 29091,tagála,tagala
 29092,tagalubí,tagalubi
-29093,Tagálug,tagalug
-29094,Tinagálug,tinagalug
+29093,tagálug,tagalug
+29094,tinagálug,tinagalug
 29095,tagalúla,tagalula
 29096,tagám,tagam
 29098,katalágman,katalagman
@@ -26910,7 +26910,7 @@ _id,head,normalized_head
 30285,tawiltawíl,tawiltawil
 30286,táwŋun,tawngun
 30287,táwsiq,tawsi
-30288,Táwsug,tawsug
+30288,táwsug,tawsug
 30289,táwsyu,tawsyu
 30290,táwu,tawu
 30294,tawhána,tawhana
@@ -27657,7 +27657,7 @@ _id,head,normalized_head
 31122,paníru,paniru
 31123,tíruŋ,tirung
 31124,tiruŋán,tirungan
-31125,Tiruráy,tiruray
+31125,tiruráy,tiruray
 31126,tirurísmu,tirurismu
 31127,tirús,tirus
 31128,tirúti,tiruti
@@ -27940,7 +27940,7 @@ _id,head,normalized_head
 31453,tsíkus,tsikus
 31454,tsikút,tsikut
 31455,tsimaníya,tsimaniya
-31456,Tsína,tsina
+31456,tsína,tsina
 31457,tsíndyiŋ,tsindying
 31460,tsinílas,tsinilas
 31461,tsíniŋ,tsining
@@ -29404,7 +29404,7 @@ _id,head,normalized_head
 33110,paqulús,paulus
 33111,qinúslan,inuslan
 33113,pinaqúslan,pinauslan
-33114,qÚlus,ulus
+33114,qúlus,ulus
 33115,qulusíman,ulusiman
 33116,qulút,ulut
 33117,qúlut,ulut
@@ -30157,10 +30157,10 @@ _id,head,normalized_head
 34029,warakwarák,warakwarak
 34030,waraswáras,waraswaras
 34031,warawára,warawara
-34032,Waráy,waray
-34033,Winaráy,winaray
-34034,Waraywáray,waraywaray
-34035,Waráynun,waraynun
+34032,waráy,waray
+34033,winaráy,winaray
+34034,waraywáray,waraywaray
+34035,waráynun,waraynun
 34036,waráy,waray
 34038,ward,ward
 34039,wardabáhu,wardabahu
@@ -30672,7 +30672,7 @@ _id,head,normalized_head
 34615,qamúq,amu
 34617,qamurítis,amuritis
 34618,qamuritisún,amuritisun
-34619,qÁmuy,amuy
+34619,qámuy,amuy
 34620,qamuyqámuy,amuy-amuy
 34621,qámyat,amyat
 34622,qinámyat,inamyat
@@ -30882,7 +30882,7 @@ _id,head,normalized_head
 34879,dágat,dagat
 34880,pamagatán,pamagatan
 34881,dághan,daghan
-34882,Dagúhuy,daguhuy
+34882,dagúhuy,daguhuy
 34884,dagúŋduŋ,dagungdung
 34885,dágway,dagway
 34886,dahúluy,dahuluy
@@ -31106,7 +31106,7 @@ _id,head,normalized_head
 35138,krak,krak
 35139,krak,krak
 35140,krísmas,krismas
-35141,Krístu,kristu
+35141,krístu,kristu
 35146,kruwís,kruwis
 35147,kudluŋún,kudlungun
 35148,kúgi,kugi
@@ -31137,7 +31137,7 @@ _id,head,normalized_head
 35180,lána,lana
 35182,lándig,landig
 35184,lantáka,lantaka
-35185,Lapulápu,lapulapu
+35185,lapulápu,lapulapu
 35188,lárgit,largit
 35189,láwqit,law-it
 35190,lay,lay
@@ -31168,13 +31168,13 @@ _id,head,normalized_head
 35223,maqístru,maistru
 35224,makinílya,makinilya
 35225,mámaw,mamaw
-35226,Mandarín,mandarin
+35226,mandarín,mandarin
 35227,manipístu,manipistu
 35228,mánday,manday
 35229,mánu,manu
 35230,manumánu,manumanu
 35231,mápiŋ,maping
-35233,Maríya,mariya
+35233,maríya,mariya
 35235,martinís,martinis
 35236,martínis,martinis
 35237,masusúylu,masusuylu
