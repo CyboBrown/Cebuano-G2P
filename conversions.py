@@ -56,7 +56,6 @@ def number_to_cebuano(number):
 
 def phonemize_exceptions(tokens):
     exception_replacements = {
-        "0": "síru",
         "1": "qusá",
         "2": "duhá",
         "3": "tulú",
@@ -66,9 +65,16 @@ def phonemize_exceptions(tokens):
         "7": "pitú",
         "8": "walú",
         "9": "siyám",
-        "akung": "qákuŋ",
         "mga": "maŋá",
         "ng": "naŋ",
+        "akung": "qákuŋ",
+        "atung": "qátuŋ",
+        "amung": "qámuŋ",
+        "imung": "qímuŋ",
+        "inyung": "qákuŋ",
+        "iyang": "qákuŋ",
+        "ilang": "qákuŋ",
+        "maung": "maqúŋ",
     }
     modified_tokens = []
     # previous_token = ""
@@ -197,7 +203,7 @@ def synthesize_text(text, phonetic_text):
 
     text = text.replace("e", "i")
     text = text.replace("o", "u")
-    text = ""
+    # text = ""
     # phonetic_text = "ʔaŋ.ʔi.ˈɾʊʔ.mi.la.ˈjat.sa.ʔi.ˈɾiŋ" # IPA Example
     # phonetic_text = "gika\"?Un sa ?i\"4U? ?aN bU\"kUg" # SAMPA Example
     print(text)

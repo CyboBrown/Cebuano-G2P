@@ -20,3 +20,6 @@ Wala ta ka hisultii nga tuod sa akong gibati, busa ibutyag ko na kanimo ug ipada
         <!-- Ang kalayo mikalatkat sa balungbong ug sa atup. -->
     </phoneme>
 </speak>
+
+
+Remove "naq"
